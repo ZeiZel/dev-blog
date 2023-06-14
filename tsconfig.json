@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // постановка всех путей от начала папки проекта
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    // позволяет использовать обычные импорты вместо CommonJS
+    "esModuleInterop": true,
+    // убирает потребность писать * as для импорта нодовских пакетов
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
